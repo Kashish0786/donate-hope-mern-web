@@ -93,8 +93,8 @@ Care Connect provides a **one-stop donation system** where users can:
 ---
 
 ## ⚙️ Live Link 
-Link- donate-hope-mern-web.vercel.app
-Email- admin@gmail.com ( or you can also signup )
-Password- 123
+- Link- donate-hope-mern-web.vercel.app
+- Email- admin@gmail.com ( or you can also signup )
+- Password- 123
 
 ---
