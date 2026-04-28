@@ -23,10 +23,7 @@ import itemRoutes from "./routes/itemRoutes.js";
 const app = express();
 
 // middleware
-app.use(cors({
-   origin: "https://donate-hope-mern-g4xhfzofg-kashishs-projects-7ae8e8dd.vercel.app",
-  credentials: true
-}));
+app.use(cors( ));
 app.use(express.json());
 
 // DB connect
