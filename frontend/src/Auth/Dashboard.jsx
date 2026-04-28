@@ -26,11 +26,11 @@ const Dashboard = () => {
       try {
         const token = localStorage.getItem("token");
 
-        const donationRes = await axios.get("http://localhost:5000/api/donations/my", {
+        const donationRes = await axios.get("https://care-donate-hope.onrender.com/api/donations/my", {
           headers: { Authorization: `Bearer ${token}` },
         });
 
-        const itemRes = await axios.get("http://localhost:5000/api/items/my", {
+        const itemRes = await axios.get("https://care-donate-hope.onrender.com/api/items/my", {
           headers: { Authorization: `Bearer ${token}` },
         });
 
