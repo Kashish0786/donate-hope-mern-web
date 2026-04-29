@@ -29,7 +29,7 @@ const DonateMoney = () => {
       const token = localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:5000/api/donations",
+        "https://care-donate-hope.onrender.com/api/donations",
         { amount: Number(amount) }, // ✅ convert to number
         {
           headers: {
