@@ -27,7 +27,7 @@ export const payNow = async (amount) => {
   }
 
   const { data } = await axios.post(
-    "http://localhost:5000/api/payment/create-order",
+    "https://care-donate-hope.onrender.com/api/payment/create-order",
     { amount:amount, }
   );
 
@@ -42,7 +42,7 @@ export const payNow = async (amount) => {
       console.log("Payment Successful:" , response);
       alert("Payment Successful 🎉");
 
-    await axios.post("http://localhost:5000/api/payment/save-payment", 
+    await axios.post("https://care-donate-hope.onrender.com/api/payment/save-payment", 
     {
     amount: amount,
     paymentId: response.razorpay_payment_id,
